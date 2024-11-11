@@ -99,7 +99,7 @@
 
     > yarn Start 
 
-## *B Installing React with Vite (Recommended for Faster Builds)*
+## *B. Installing React with Vite (Recommended for Faster Builds)*
 
 *Vite* is a modern build tool that provides faster development builds and an improved development experience by using ES modules. It is especially suitable for larger applications with rapid feedback.
 
@@ -179,7 +179,7 @@ For users who want full control over their configuration, manually setting up Re
 > const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
+> module.exports = {
 entry: './src/index.js',
 output: {
 path: path.resolve(__dirname, 'dist'),
@@ -214,45 +214,45 @@ template: './public/index.html',
 6. *Babel Configuration*:
    Create a .babelrc file to configure Babel:
   
-{
+> {
 "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 
 
 7. *Create the React Files*:
-   - Create a src directory with an index.js file containing the main React component:
+ 
+ Create a src directory with an index.js file containing the main React component:
     
-import React from 'react';
+> import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App =
+> const App =
 
-() => <h1>Hello, React!</h1>;
+> () => <h5>Hello, React!</h5>;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
    - Create a public/index.html file with a root element:
     
- <!DOCTYPE html>
- <html lang="en"> 
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>React App</title>
-</head>
-<body>
-<div id="root"></div>
-</body>
-</html>
+ > <!DOCTYPE html>
+ > <html lang="en"> 
+> <head>
+> <meta charset="UTF-8" />
+> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+> <title>React App</title>
+> </head>
+> <body>
+> <div id="root"></div>
+> </body>
+> </html>
 
 
 8. *Start the Development Server*:
-   Add a start script to your package.json:
+
+- Add a start script to your package.json:
   
-"scripts": {
-"start": "webpack serve --mode development"
-}
+> "scripts": { "start": "webpack serve --mode development"}
 
   Then, run the server:
   
@@ -262,7 +262,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ---
 
-By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences.
+*** By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences. ***
 
 
 
