@@ -52,6 +52,8 @@
 
 ## *A.  Installing React with Create React App (CRA)*
 
+<img src="CRA.png"> 
+
 ##### *Create React App* is the easiest and most commonly used tool to set up a React application. It abstracts the configuration and provides a ready-to-use environment with Webpack, Babel, and other tools.
 
 ## Steps to Set Up React Using CRA: 
