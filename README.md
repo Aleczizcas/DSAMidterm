@@ -46,3 +46,25 @@
 
    ##### React’s *Concurrent Mode* is an experimental feature that allows React to prioritize critical UI updates (like user interactions) while deferring less critical updates. This leads to smoother user experiences, especially in complex, data-intensive applications.
 
+## How to Install React JS?
+##### React offers several ways to install and set up a development environment, each suited for different needs and preferences. Below are different methods to install React JS, from the easiest way using *Create React App* (CRA) to a more advanced setup using *Vite* or a *manual configuration* with Webpack and Babel.
+
+#### *A.  Installing React with Create React App (CRA)*
+
+##### *Create React App* is the easiest and most commonly used tool to set up a React application. It abstracts the configuration and provides a ready-to-use environment with Webpack, Babel, and other tools.
+
+## Steps to Set Up React Using CRA: 
+
+1. #### *Install Node.js and npm (or Yarn)*: 
+
+ > Before you start, you need *Node.js* installed. It provides the package manager *npm* (or *Yarn* if you prefer).
+
+#### Download Node.js from [nodejs.org](https://nodejs.org/en/), and verify the installation:
+
+> node -v
+> npm -v
+
+   - Alternatively, you can install *Yarn* by running:
+    
+> npm install -g yarn
+
