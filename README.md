@@ -1,10 +1,10 @@
- # <p style="text-align: center"> REACT JS </p>
+ # REACT JS 
 
 <img src="Background.jpg"> 
 
- <h3> <font color="pink"> React JS is an open-source JavaScript library developed by Facebook for building user interfaces (UIs), especially for dynamic and data-driven web applications. It simplifies the creation of interactive user interfaces by breaking down the app into smaller, reusable components. React is primarily used for building *single-page applications (SPAs)* and can handle updates and renders efficiently based on data changes, making it highly performant and scalable. </font> </h3>
+ #### React JS is an open-source JavaScript library developed by Facebook for building user interfaces (UIs), especially for dynamic and data-driven web applications. It simplifies the creation of interactive user interfaces by breaking down the app into smaller, reusable components. React is primarily used for building *single-page applications (SPAs)* and can handle updates and renders efficiently based on data changes, making it highly performant and scalable. 
 
- <h4> <font color="pink"> React is focused on the "view" layer in the MVC (Model-View-Controller) architecture, and it’s often paired with other libraries like *Redux* or *Next.js* for state management and routing.</font> </h4>
+ #### React is focused on the "view" layer in the MVC (Model-View-Controller) architecture, and it’s often paired with other libraries like *Redux* or *Next.js* for state management and routing.
 
 ##  Main Aspects of React Js 
 
@@ -257,7 +257,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ---
 
 ##### CAS, ALECZIZ T.
-##### BSCPE 2-1
+<font color="blue"> BSCPE 2-1 </font>
 
 
 
