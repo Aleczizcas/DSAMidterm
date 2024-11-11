@@ -131,7 +131,7 @@
     > yarn install
 
 
-5. *Run the Development Server*:
+5. ##### *Run the Development Server*:
    - To start the Vite server, run:
     
     > npm run dev
@@ -228,10 +228,7 @@ import ReactDOM from 'react-dom';
 > () => <h5>Hello, React!</h5>;
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-
-   - Create a public/index.html file with a root element
-
+- Create a public/index.html file with a root element
 
 8. <b> Start the Development Server: </b>
 
@@ -247,7 +244,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ---
 
-### By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences. 
+##### *By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences. 
 
 
 
