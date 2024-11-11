@@ -60,6 +60,8 @@
 
 1. #### *Install Node.js and npm (or Yarn)*: 
 
+<img src= "node.jpg">
+
 - Before you start, you need *Node.js* installed. It provides the package manager *npm* (or *Yarn* if you prefer).
 
 #### Download Node.js from 
@@ -103,6 +105,8 @@
     > yarn Start 
 
 ## *B. Installing React with Vite (Recommended for Faster Builds)*
+
+<img src= "Vite.jpg">
 
 ##### *Vite* is a modern build tool that provides faster development builds and an improved development experience by using ES modules. It is especially suitable for larger applications with rapid feedback.
 
@@ -148,6 +152,8 @@
 ---
 
 ## *C. Installing React with Manual Setup (Using Webpack & Babel)*
+
+<img src= "Babel.png">
 
 ##### For users who want full control over their configuration, manually setting up React with *Webpack* and *Babel* allows for customized builds. This setup is useful for larger projects or when specific configurations are required.
 
