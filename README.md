@@ -59,7 +59,8 @@
 
  > Before you start, you need *Node.js* installed. It provides the package manager *npm* (or *Yarn* if you prefer).
 
-#### Download Node.js from < a href= "https://nodejs.org/en/" target="_blank"> Click here and verify the installation:
+#### Download Node.js from 
+<a href= "https://nodejs.org/en/" target="_blank"> Click here and verify the installation </a>
 
 > node -v
 > npm -v
