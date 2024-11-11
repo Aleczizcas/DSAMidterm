@@ -2,7 +2,7 @@
 
 <img src="Background.jpg"> 
 
-<span style="color:violet"> React JS is an open-source JavaScript library developed by Facebook for building user interfaces (UIs), especially for dynamic and data-driven web applications. It simplifies the creation of interactive user interfaces by breaking down the app into smaller, reusable components. React is primarily used for building *single-page applications (SPAs)* and can handle updates and renders efficiently based on data changes, making it highly performant and scalable. </span>
+<color> #FFA500 React JS is an open-source JavaScript library developed by Facebook for building user interfaces (UIs), especially for dynamic and data-driven web applications. It simplifies the creation of interactive user interfaces by breaking down the app into smaller, reusable components. React is primarily used for building *single-page applications (SPAs)* and can handle updates and renders efficiently based on data changes, making it highly performant and scalable. </color>
 
  #### React is focused on the "view" layer in the MVC (Model-View-Controller) architecture, and it’s often paired with other libraries like *Redux* or *Next.js* for state management and routing.
 
