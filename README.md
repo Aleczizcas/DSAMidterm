@@ -244,7 +244,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ---
 
-##### *By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences. 
+##### *By following any of these installation methods, you can easily get started with React JS development, whether you're looking for a simple setup with *Create React App*, a fast and modern approach with *Vite*, or a custom configuration with *Webpack and Babel*. Choose the method that best suits your project's requirements and development preferences.* 
 
 
 
