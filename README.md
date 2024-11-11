@@ -257,7 +257,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ---
 
 ##### CAS, ALECZIZ T.
-<font color="blue"> BSCPE 2-1 </font>
+<span style="color: pink;"> BSCPE 2-1 </span>
 
 
 
