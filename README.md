@@ -3,7 +3,7 @@
 ## What is React Js? 
 ##### React JS is an open-source JavaScript library developed by Facebook for building user interfaces (UIs), especially for dynamic and data-driven web applications. It simplifies the creation of interactive user interfaces by breaking down the app into smaller, reusable components. React is primarily used for building *single-page applications (SPAs)* and can handle updates and renders efficiently based on data changes, making it highly performant and scalable. 
 
-#### React is focused on the "view" layer in the MVC (Model-View-Controller) architecture, and it’s often paired with other libraries like *Redux* or *Next.js* for state management and routing.
+##### React is focused on the "view" layer in the MVC (Model-View-Controller) architecture, and it’s often paired with other libraries like *Redux* or *Next.js* for state management and routing.
 
 ##  Main Aspects of React Js 
 
@@ -101,27 +101,27 @@
 
 ## *B. Installing React with Vite (Recommended for Faster Builds)*
 
-*Vite* is a modern build tool that provides faster development builds and an improved development experience by using ES modules. It is especially suitable for larger applications with rapid feedback.
+##### *Vite* is a modern build tool that provides faster development builds and an improved development experience by using ES modules. It is especially suitable for larger applications with rapid feedback.
 
 ## *Steps to Set Up React with Vite*: 
 
-1. *Install Node.js*:
+1. ##### *Install Node.js*:
    - Ensure *Node.js* is installed by following the previous steps.
 
-2. *Create a New Project Using Vite*:
+2. ##### *Create a New Project Using Vite*:
    - Run the following command in your terminal:
     
     > npm create vite@latest my-vite-react-app --template react
 
     > Replace my-vite-react-app with your desired project name.
 
-3. *Navigate to Your Project Folder*:
+3. ##### *Navigate to Your Project Folder*:
    After the project is created, go to the project directory:
   
     > cd my-vite-react-app
 
 
-4. *Install Dependencies*:
+4. ##### *Install Dependencies*:
    Use *npm* or *Yarn* to install the required packages:
   
     > npm install
@@ -146,35 +146,32 @@
 
 ## *C. Installing React with Manual Setup (Using Webpack & Babel)*
 
-For users who want full control over their configuration, manually setting up React with *Webpack* and *Babel* allows for customized builds. This setup is useful for larger projects or when specific configurations are required.
+##### For users who want full control over their configuration, manually setting up React with *Webpack* and *Babel* allows for customized builds. This setup is useful for larger projects or when specific configurations are required.
 
 ## *Steps to Set Up React Manually*:
 
-1. *Install Node.js*:
-   Install *Node.js* from the official website if you haven’t done so already.
+1. <b> Install Node.js:
+   Install **Node.js** from the official website if you haven’t done so already. </b>
 
-2. *Initialize a New Node.js Project*:
-   Create a new project folder and initialize it:
+2. <b> Initialize a New Node.js Project: </b> Create a new project folder and initialize it: 
   
     > mkdir my-react-app
     > cd my-react-app
     > npm init -y
 
 
-3. *Install React and React DOM*:
-   Install React and React DOM dependencies:
+3. <b> Install React and React DOM: </b>
   
     > npm install react react-dom
 
 
-4. *Install Development Tools*:
-   You'll need *Webpack* and *Babel* to transpile modern JavaScript and JSX:
+4. <b> Install Development Tools: </b> You'll need *Webpack* and *Babel* to transpile modern JavaScript and JSX:
   
 > npm install --save-dev webpack webpack-cli webpack-dev-server babel-loader @babel/core @babel/preset-env @babel/preset-react html-webpack-plugin
 
 
-5. *Configure Webpack*:
-   Create a webpack.config.js file in the project root:
+5. <b> Configure Webpack: </b>
+   Create a webpack.config.js file in the project root: 
   
 > const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -211,7 +208,7 @@ template: './public/index.html',
 };
 
 
-6. *Babel Configuration*:
+6. <b> Babel Configuration: </b> 
    Create a .babelrc file to configure Babel:
   
 > {
@@ -219,7 +216,7 @@ template: './public/index.html',
 }
 
 
-7. *Create the React Files*:
+7.<b> Create the React Files: </b> 
  
  Create a src directory with an index.js file containing the main React component:
     
@@ -233,22 +230,10 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
-   - Create a public/index.html file with a root element:
-    
- > <!DOCTYPE html>
- > <html lang="en"> 
-> <head>
-> <meta charset="UTF-8" />
-> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-> <title>React App</title>
-> </head>
-> <body>
-> <div id="root"></div>
-> </body>
-> </html>
+   - Create a public/index.html file with a root element
 
 
-8. *Start the Development Server*:
+8. <b> Start the Development Server: </b>
 
 - Add a start script to your package.json:
   
